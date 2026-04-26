@@ -66,7 +66,9 @@ jobs:
         with:
           context: .
           file: build/bizeros/Dockerfile
-          platforms: linux/amd64,linux/arm64
+          # Upstream mattermost/mattermost-team-edition publishes amd64
+          # only, so multi-arch builds fail to resolve a base manifest.
+          platforms: linux/amd64
           push: true
           tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}

@@ -15,7 +15,7 @@
   "author": "BizerOS",
   "source": "https://github.com/kelsi-bizer/bizeros-chat",
   "website": "https://github.com/kelsi-bizer/bizeros-chat",
-  "supported_architectures": ["amd64", "arm64"],
+  "supported_architectures": ["amd64"],
   "form_fields": [
     {
       "type": "password",
