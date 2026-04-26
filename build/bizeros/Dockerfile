@@ -6,6 +6,10 @@
 #
 # Build context: repository root.
 
+# Global ARG — must be declared BEFORE any FROM so its default is
+# visible to FROM ${UPSTREAM_IMAGE} below.
+ARG UPSTREAM_IMAGE=mattermost/mattermost-team-edition:release-11.7
+
 # ---------------------------------------------------------------------------
 # Stage 1: build the rebranded React webapp from source.
 # ---------------------------------------------------------------------------
@@ -29,8 +33,6 @@ RUN npm run build
 # ---------------------------------------------------------------------------
 # Stage 2: final image — upstream Mattermost server with our client overlay.
 # ---------------------------------------------------------------------------
-# Pin the upstream image with a build arg so CI can bump it cleanly.
-ARG UPSTREAM_IMAGE=mattermost/mattermost-team-edition:release-11.7
 FROM ${UPSTREAM_IMAGE}
 
 # Replace the bundled webapp with our rebranded build. Existing files
