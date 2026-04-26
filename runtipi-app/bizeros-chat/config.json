@@ -1,0 +1,28 @@
+{
+  "$schema": "../app-info-schema.json",
+  "name": "BizerOS Chat",
+  "id": "bizeros-chat",
+  "available": true,
+  "exposable": true,
+  "port": 8065,
+  "version": "11.7.0",
+  "tipi_version": 1,
+  "min_tipi_version": "3.0.0",
+  "dynamic_config": false,
+  "categories": ["social", "utilities"],
+  "description": "BizerOS Chat is a self-hosted team messaging and collaboration platform. Channels, direct messages, threads, file sharing, search, and integrations — all running on your own Runtipi instance.",
+  "short_desc": "Team messaging and collaboration platform.",
+  "author": "BizerOS",
+  "source": "https://github.com/kelsi-bizer/bizeros-chat",
+  "website": "https://github.com/kelsi-bizer/bizeros-chat",
+  "supported_architectures": ["amd64", "arm64"],
+  "form_fields": [
+    {
+      "type": "password",
+      "label": "Database password",
+      "hint": "Used to secure the bundled PostgreSQL instance. Generate a strong random value.",
+      "required": true,
+      "env_variable": "BIZEROS_DB_PASSWORD"
+    }
+  ]
+}

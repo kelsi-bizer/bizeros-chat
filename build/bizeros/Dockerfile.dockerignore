@@ -1,0 +1,40 @@
+# Keep the build context small — we only need the rebranded webapp source
+# and a few server overlay paths.
+**/node_modules
+**/dist
+**/.parcel-cache
+**/.cache
+**/coverage
+**/__snapshots__
+**/.git
+**/.github
+**/.vscode
+**/.idea
+**/*.log
+
+# Server is consumed from the upstream image, not built here.
+server/channels
+server/cmd
+server/build
+server/config
+server/enterprise
+server/playbooks
+server/public
+server/scripts
+server/store
+server/vendor
+server/*.go
+server/go.*
+
+# E2E and tooling not needed in the image.
+e2e-tests
+tools/mattermost-govet
+tools/mmgotool
+tools/sharedchannel-test
+
+# Docs, license metadata, and the rebrand tools live outside the image.
+docs
+NOTICE.txt
+CHANGELOG.md
+*.md
+runtipi-app
