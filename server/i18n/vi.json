@@ -747,7 +747,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Thông tin email tài khoản Mattermost của bạn đã được cấu hình chính xác!"
+    "translation": "Thông tin email tài khoản BizerOS Chat của bạn đã được cấu hình chính xác!"
   },
   {
     "id": "api.channel.post_update_channel_displayname_message_and_forget.create_post.error",
@@ -861,7 +861,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Trình duyệt này không còn được Mattermost hỗ trợ"
+    "translation": "Trình duyệt này không còn được BizerOS Chat hỗ trợ"
   },
   {
     "id": "api.user.update_active.not_enable.app_error",
@@ -1105,7 +1105,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Tài khoản AD / LDAP của bạn không có quyền sử dụng máy chủ Mattermost sever này. Vui lòng yêu cầu Quản trị viên hệ thống của bạn kiểm tra bộ lọc người dùng AD / LDAP."
+    "translation": "Tài khoản AD / LDAP của bạn không có quyền sử dụng máy chủ BizerOS Chat sever này. Vui lòng yêu cầu Quản trị viên hệ thống của bạn kiểm tra bộ lọc người dùng AD / LDAP."
   },
   {
     "id": "api.status.user_not_found.app_error",
@@ -2731,7 +2731,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Kiểm tra Cài đặt Email"
+    "translation": "BizerOS Chat - Kiểm tra Cài đặt Email"
   },
   {
     "id": "api.channel.join_channel.post_and_forget",
@@ -3207,7 +3207,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Mở trang trợ giúp Mattermost"
+    "translation": "Mở trang trợ giúp BizerOS Chat"
   },
   {
     "id": "api.team.set_team_icon.write_file.app_error",
@@ -3407,7 +3407,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Nhật ký nhập Mattermost Slack\n"
+    "translation": "Nhật ký nhập BizerOS Chat Slack\n"
   },
   {
     "id": "ent.account_migration.get_all_failed",
@@ -3943,7 +3943,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Tải xuống Mattermost app hoặc dùng trình duyệt được hỗ trợ để có trải nghiệm tốt nhất."
+    "translation": "Tải xuống BizerOS Chat app hoặc dùng trình duyệt được hỗ trợ để có trải nghiệm tốt nhất."
   },
   {
     "id": "model.cluster.is_valid.last_ping_at.app_error",
@@ -4395,7 +4395,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Phiên bản hiện tại của trình duyệt không còn được Mattermost hỗ trợ"
+    "translation": "Phiên bản hiện tại của trình duyệt không còn được BizerOS Chat hỗ trợ"
   },
   {
     "id": "api.command_join.desc",
@@ -4521,7 +4521,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Không thể tìm kiếm người dùng trong AD / LDAP. Kiểm tra xem máy chủ Mattermost có thể kết nối với máy chủ AD / LDAP của bạn không và thử lại."
+    "translation": "Không thể tìm kiếm người dùng trong AD / LDAP. Kiểm tra xem máy chủ BizerOS Chat có thể kết nối với máy chủ AD / LDAP của bạn không và thử lại."
   },
   {
     "id": "model.authorize.is_valid.expires.app_error",
@@ -5047,7 +5047,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Gửi một email mời nhóm Mattermost của bạn"
+    "translation": "Gửi một email mời nhóm BizerOS Chat của bạn"
   },
   {
     "id": "api.admin.ldap.not_available.app_error",
@@ -5227,7 +5227,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Tên người dùng đã được sử dụng bởi một người dùng Mattermost khác."
+    "translation": "Tên người dùng đã được sử dụng bởi một người dùng BizerOS Chat khác."
   },
   {
     "id": "app.channel.create_direct_channel.internal_error",
@@ -5639,7 +5639,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Đông ý lời mời từ máy của Mattermost bên ngoài"
+    "translation": "Đông ý lời mời từ máy của BizerOS Chat bên ngoài"
   },
   {
     "id": "api.command_remote.invitation.help",
@@ -5887,11 +5887,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Mở Mattermost"
+    "translation": "Mở BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Tải ứng dụng Mattermost"
+    "translation": "Tải ứng dụng BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.info",
@@ -5947,7 +5947,7 @@
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Bắt đầu cộng tác với nhóm của bạn trên Mattermost"
+    "translation": "Bắt đầu cộng tác với nhóm của bạn trên BizerOS Chat"
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -5959,11 +5959,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost là một nền tảng nhắn tin mã nguồn mở, linh hoạt cho phép cộng tác nhóm một cách an toàn."
+    "translation": "BizerOS Chat là một nền tảng nhắn tin mã nguồn mở, linh hoạt cho phép cộng tác nhóm một cách an toàn."
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Mattermost là gì?"
+    "translation": "BizerOS Chat là gì?"
   },
   {
     "id": "api.templates.invite_team_and_channel_body.title",
@@ -5983,7 +5983,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Đăng ký Mattermost của bạn sắp được gia hạn"
+    "translation": "Đăng ký BizerOS Chat của bạn sắp được gia hạn"
   },
   {
     "id": "api.templates.questions_footer.info",
@@ -6043,7 +6043,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, đăng ký của bạn sẽ hết hạn sau {{.Days}} ngày. Chúng tôi hy vọng bạn đang trải nghiệm sự cộng tác nhóm linh hoạt và an toàn mà Mattermost mang lại. Hãy sớm gia hạn để đảm bảo nhóm của bạn có thể tiếp tục tận hưởng những lợi ích này."
+    "translation": "{{.UserName}}, đăng ký của bạn sẽ hết hạn sau {{.Days}} ngày. Chúng tôi hy vọng bạn đang trải nghiệm sự cộng tác nhóm linh hoạt và an toàn mà BizerOS Chat mang lại. Hãy sớm gia hạn để đảm bảo nhóm của bạn có thể tiếp tục tận hưởng những lợi ích này."
   },
   {
     "id": "api.system.id_loaded.not_available.app_error",
@@ -6095,7 +6095,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Đăng nhập vào Mattermost"
+    "translation": "Đăng nhập vào BizerOS Chat"
   },
   {
     "id": "app.notification.footer.title",

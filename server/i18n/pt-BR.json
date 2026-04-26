@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Parece que o seu email do Mattermost está configurado corretamente!"
+    "translation": "Parece que o seu email do BizerOS Chat está configurado corretamente!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Teste de Configurações de Email"
+    "translation": "BizerOS Chat - Teste de Configurações de Email"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -341,7 +341,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Enviar um email para convidar sua equipe para Mattermost"
+    "translation": "Enviar um email para convidar sua equipe para BizerOS Chat"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -617,7 +617,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Exibir descrição de ajuda do Mattermost"
+    "translation": "Exibir descrição de ajuda do BizerOS Chat"
   },
   {
     "id": "api.command_help.name",
@@ -725,7 +725,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Faça Logout do Mattermost"
+    "translation": "Faça Logout do BizerOS Chat"
   },
   {
     "id": "api.command_logout.name",
@@ -1501,7 +1501,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "O canal Slack {{.DisplayName}} já existe como um canal ativo no Mattermost. Ambos os canais foram mesclados.\r\n"
+    "translation": "O canal Slack {{.DisplayName}} já existe como um canal ativo no BizerOS Chat. Ambos os canais foram mesclados.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1509,11 +1509,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Usuário Slack mesclado com um usuário Mattermost existente com e-mail correspondente {{.Email}} e nome de usuário {{.Username}}.\r\n"
+    "translation": "Usuário Slack mesclado com um usuário BizerOS Chat existente com e-mail correspondente {{.Email}} e nome de usuário {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Usuário Slack mesclado com um usuário Mattermost existente com e-mail correspondente {{.Email}} e nome de usuário {{.Username}}, mas não foi possível adicionar o usuário a sua equipe.\r\n"
+    "translation": "Usuário Slack mesclado com um usuário BizerOS Chat existente com e-mail correspondente {{.Email}} e nome de usuário {{.Username}}, mas não foi possível adicionar o usuário a sua equipe.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1525,7 +1525,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Log de Importação Slack\r\n"
+    "translation": "BizerOS Chat Log de Importação Slack\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1833,7 +1833,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Responder no Mattermost"
+    "translation": "Responder no BizerOS Chat"
   },
   {
     "id": "api.templates.reset_body.button",
@@ -1893,7 +1893,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Este endereço de e-mail foi usado para criar uma conta no Mattermost."
+    "translation": "Este endereço de e-mail foi usado para criar uma conta no BizerOS Chat."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1913,7 +1913,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Este endereço de e-mail foi usado para criar uma conta no Mattermost."
+    "translation": "Este endereço de e-mail foi usado para criar uma conta no BizerOS Chat."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3101,7 +3101,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Sua conta AD/LDAP não tem permissão para usar este servidor Mattermost. Por favor peça ao Administrador do Sistema para verificar o filtro de usuário AD/LDAP."
+    "translation": "Sua conta AD/LDAP não tem permissão para usar este servidor BizerOS Chat. Por favor peça ao Administrador do Sistema para verificar o filtro de usuário AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3121,7 +3121,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Falha ao pesquisar usuários no AD/LDAP. Teste se o servidor Mattermost pode se conectar ao seu servidor AD/LDAP e tente novamente."
+    "translation": "Falha ao pesquisar usuários no AD/LDAP. Teste se o servidor BizerOS Chat pode se conectar ao seu servidor AD/LDAP e tente novamente."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3165,7 +3165,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Nome de usuário já usado por outro usuário Mattermost."
+    "translation": "Nome de usuário já usado por outro usuário BizerOS Chat."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3249,7 +3249,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Boletim de Segurança"
+    "translation": "BizerOS Chat Boletim de Segurança"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4389,7 +4389,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Os Termos de Serviço do GitLab foram atualizados. Por favor vá até {{.URL}} para aceitar os termos e depois tente se logar novamente no Mattermost."
+    "translation": "Os Termos de Serviço do GitLab foram atualizados. Por favor vá até {{.URL}} para aceitar os termos e depois tente se logar novamente no BizerOS Chat."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4553,11 +4553,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "A versão do seu navegador não é mais suportada pelo Mattermost"
+    "translation": "A versão do seu navegador não é mais suportada pelo BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Esse navegador não é mais suportado pelo Mattermost"
+    "translation": "Esse navegador não é mais suportado pelo BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4601,7 +4601,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Baixar o aplicativo Mattermost ou usar um navegador suportado para uma melhor experiencia."
+    "translation": "Baixar o aplicativo BizerOS Chat ou usar um navegador suportado para uma melhor experiencia."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -6189,11 +6189,11 @@
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition. O usuário do sistema Mattermost {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o Mattermost está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o Mattermost novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema BizerOS Chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o BizerOS Chat está instalado:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o BizerOS Chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition."
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -6553,23 +6553,23 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition. A assinatura digital do arquivo binário baixado não pôde ser verificada."
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition. A assinatura digital do arquivo binário baixado não pôde ser verificada."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition."
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition. Este recurso funcionará apenas em sistemas Linux com arquitetura x86-64."
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition. Este recurso funcionará apenas em sistemas Linux com arquitetura x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition. O usuário do sistema Mattermost {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o Mattermost está instalado:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o Mattermost novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema BizerOS Chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o BizerOS Chat está instalado:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o BizerOS Chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost não conseguiu atualizar para a Enterprise Edition. O usuário do sistema Mattermost {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o Mattermost está instalado:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o Mattermost novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat não conseguiu atualizar para a Enterprise Edition. O usuário do sistema BizerOS Chat {{.MattermostUsername}} não tem acesso de gravação ao arquivo binário necessário. Um administrador de sistema pode atualizar as permissões do arquivo executando o seguinte comando no servidor onde o BizerOS Chat está instalado:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDepois de alterar as permissões do arquivo, tente atualizar o BizerOS Chat novamente. Quando você tiver atualizado e reiniciado, lembre-se de restaurar as permissões do arquivo binário original: \n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "app.upload.get.app_error",
@@ -7325,7 +7325,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Compartilha o canal atual com uma instância externa do Mattermost."
+    "translation": "Compartilha o canal atual com uma instância externa do BizerOS Chat."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7433,7 +7433,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Envie o seguinte convite criptografado AES de 256 bits para o Mattermost System Admin externo junto com a senha. Eles usarão o comando de barra `{{.Command}}` para aceitar o convite.\n\n```\n{{.Invitation}}\n```\n\n**Certifique-se de que a conexão segura pode acessar sua instância Mattermost via** {{.SiteURL}}"
+    "translation": "Envie o seguinte convite criptografado AES de 256 bits para o BizerOS Chat System Admin externo junto com a senha. Eles usarão o comando de barra `{{.Command}}` para aceitar o convite.\n\n```\n{{.Invitation}}\n```\n\n**Certifique-se de que a conexão segura pode acessar sua instância BizerOS Chat via** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7473,7 +7473,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Convide conexões seguras para comunicação entre as instâncias do Mattermost."
+    "translation": "Convide conexões seguras para comunicação entre as instâncias do BizerOS Chat."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7497,7 +7497,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Aceite um convite de uma instância externa do Mattermost"
+    "translation": "Aceite um convite de uma instância externa do BizerOS Chat"
   },
   {
     "id": "api.cloud.cws_webhook_event_missing_error",
@@ -7577,7 +7577,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "O que é Mattermost?"
+    "translation": "O que é BizerOS Chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7585,11 +7585,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost é uma plataforma de mensagens flexível e de código aberto que permite a colaboração segura da equipe."
+    "translation": "BizerOS Chat é uma plataforma de mensagens flexível e de código aberto que permite a colaboração segura da equipe."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Comece a colaborar com sua equipe no Mattermost"
+    "translation": "Comece a colaborar com sua equipe no BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.subtitle_info",
@@ -7629,11 +7629,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Baixar Aplicativo Mattermost"
+    "translation": "Baixar Aplicativo BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Abrir Mattermost"
+    "translation": "Abrir BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7829,7 +7829,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Abrir Mattermost"
+    "translation": "Abrir BizerOS Chat"
   },
   {
     "id": "api.acknowledgement.delete.archived_channel.app_error",
@@ -8137,7 +8137,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "O Mattermost é uma plataforma de código aberto para comunicação segura, colaboração e orquestração de trabalho entre ferramentas e equipes.\nO Mattermost contém duas ferramentas principais:\n\n**Canais** - Mantenha-se conectado com sua equipe por meio de mensagens individuais e em grupo.\n**[Playbooks](/playbooks)** - Crie e configure processos reprodutíveis para que você alcance resultados específicos e previsíveis.\n\n[Veja a documentação e os guias]({{.HelpLink}})"
+    "translation": "O BizerOS Chat é uma plataforma de código aberto para comunicação segura, colaboração e orquestração de trabalho entre ferramentas e equipes.\nO BizerOS Chat contém duas ferramentas principais:\n\n**Canais** - Mantenha-se conectado com sua equipe por meio de mensagens individuais e em grupo.\n**[Playbooks](/playbooks)** - Crie e configure processos reprodutíveis para que você alcance resultados específicos e previsíveis.\n\n[Veja a documentação e os guias]({{.HelpLink}})"
   },
   {
     "id": "api.command_exportlink.driver.app_error",
@@ -8189,7 +8189,7 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "O preenchimento automático nos canais não pode ser ativado porque o esquema do índice de canais está desatualizado. Recomenda-se que você gere novamente o índice do canal. Consulte o registro de alterações do Mattermost para obter mais informações"
+    "translation": "O preenchimento automático nos canais não pode ser ativado porque o esquema do índice de canais está desatualizado. Recomenda-se que você gere novamente o índice do canal. Consulte o registro de alterações do BizerOS Chat para obter mais informações"
   },
   {
     "id": "api.command_exportlink.invalid.app_error",
@@ -8277,7 +8277,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Sua assinatura do Mattermost precisaa ser renovada"
+    "translation": "Sua assinatura do BizerOS Chat precisaa ser renovada"
   },
   {
     "id": "api.remote_cluster.cluster_not_deleted",
@@ -8433,7 +8433,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, sua assinatura está definida para expirar em {{.Days}} dias. Esperamos que você esteja experimentando a colaboração em equipe flexível e segura que o Mattermost permite. Renove em breve para garantir que sua equipe continue aproveitando esses benefícios."
+    "translation": "{{.UserName}}, sua assinatura está definida para expirar em {{.Days}} dias. Esperamos que você esteja experimentando a colaboração em equipe flexível e segura que o BizerOS Chat permite. Renove em breve para garantir que sua equipe continue aproveitando esses benefícios."
   },
   {
     "id": "api.templates.ip_filters_changed_footer.title",
@@ -8497,7 +8497,7 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "As interações com o Portal do Cliente Mattermost foram desativadas pelo administrador do sistema."
+    "translation": "As interações com o Portal do Cliente BizerOS Chat foram desativadas pelo administrador do sistema."
   },
   {
     "id": "api.templates.cloud_welcome_email.invite_sub_info",
@@ -8921,7 +8921,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Faça login no Mattermost"
+    "translation": "Faça login no BizerOS Chat"
   },
   {
     "id": "app.notify_admin.send_notification_post.app_error",

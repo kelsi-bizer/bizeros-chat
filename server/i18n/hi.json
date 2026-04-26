@@ -405,7 +405,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab की सेवा की शर्तें अपडेट हो गई हैं। कृपया उन्हें स्वीकार करने के लिए gitlab.com पर जाएं और फिर Mattermost में फिर से लॉग इन करने का प्रयास करें।"
+    "translation": "GitLab की सेवा की शर्तें अपडेट हो गई हैं। कृपया उन्हें स्वीकार करने के लिए gitlab.com पर जाएं और फिर BizerOS Chat में फिर से लॉग इन करने का प्रयास करें।"
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",

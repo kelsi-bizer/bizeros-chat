@@ -85,7 +85,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Se pare că e-mailul tau Mattermost este setat corect!"
+    "translation": "Se pare că e-mailul tau BizerOS Chat este setat corect!"
   },
   {
     "id": "api.admin.test_email.missing_server",
@@ -97,7 +97,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testarea setărilor de e-mail"
+    "translation": "BizerOS Chat - Testarea setărilor de e-mail"
   },
   {
     "id": "api.admin.test_s3.missing_s3_bucket",
@@ -341,7 +341,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Trimite un e-mail de a invita în echipa ta de Mattermost"
+    "translation": "Trimite un e-mail de a invita în echipa ta de BizerOS Chat"
   },
   {
     "id": "api.command.invite_people.email_invitations_off",
@@ -617,7 +617,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Deschideți pagina de ajutor Mattermost"
+    "translation": "Deschideți pagina de ajutor BizerOS Chat"
   },
   {
     "id": "api.command_help.name",
@@ -721,7 +721,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Radierea Mattermost"
+    "translation": "Radierea BizerOS Chat"
   },
   {
     "id": "api.command_logout.name",
@@ -1497,7 +1497,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Canalul Slack {{.DisplayName}} există deja ca un canal Mattermost activ. Ambele canale au fost îmbinate.\r\n"
+    "translation": "Canalul Slack {{.DisplayName}} există deja ca un canal BizerOS Chat activ. Ambele canale au fost îmbinate.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -1505,11 +1505,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Utilizatorul Slack a fuzionat cu un utilizator Mattermost existent cu e-mail {{.Email}} și nume de utilizator {{.Username}}.\r\n"
+    "translation": "Utilizatorul Slack a fuzionat cu un utilizator BizerOS Chat existent cu e-mail {{.Email}} și nume de utilizator {{.Username}}.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Utilizator moale a fuzionat cu un utilizator existent Mattermost cu potrivire e-mail {{.Email}} şi nume de utilizator {{.Username}}, dar a fost imposibil de adăugat utilizatorul echipei lor.\r\n"
+    "translation": "Utilizator moale a fuzionat cu un utilizator existent BizerOS Chat cu potrivire e-mail {{.Email}} şi nume de utilizator {{.Username}}, dar a fost imposibil de adăugat utilizatorul echipei lor.\r\n"
   },
   {
     "id": "api.slackimport.slack_add_users.missing_email_address",
@@ -1521,7 +1521,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Importează Logul Mattermost Slack\r\n"
+    "translation": "Importează Logul BizerOS Chat Slack\r\n"
   },
   {
     "id": "api.slackimport.slack_import.note1",
@@ -1889,7 +1889,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Această adresă de e-mail a fost utilizată pentru a crea un cont cu Mattermost."
+    "translation": "Această adresă de e-mail a fost utilizată pentru a crea un cont cu BizerOS Chat."
   },
   {
     "id": "api.templates.verify_body.title",
@@ -1909,7 +1909,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Această adresă de e-mail a fost utilizată pentru a crea un cont cu Mattermost."
+    "translation": "Această adresă de e-mail a fost utilizată pentru a crea un cont cu BizerOS Chat."
   },
   {
     "id": "api.templates.welcome_body.title",
@@ -3097,7 +3097,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Contul AD/LDAP nu are permisiunea de a utiliza acest server Mattermost. Vă rugăm să cereţi administratorului de sistem pentru a verifica filtrul de utilizator AD/LDAP."
+    "translation": "Contul AD/LDAP nu are permisiunea de a utiliza acest server BizerOS Chat. Vă rugăm să cereţi administratorului de sistem pentru a verifica filtrul de utilizator AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.user_not_registered.app_error",
@@ -3117,7 +3117,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Căutarea utilizatorilor în AD/LDAP nu a reușit. Testaţi dacă serverul Mattermost poate conecta la serverul de anunţuri/LDAP și încercați din nou."
+    "translation": "Căutarea utilizatorilor în AD/LDAP nu a reușit. Testaţi dacă serverul BizerOS Chat poate conecta la serverul de anunţuri/LDAP și încercați din nou."
   },
   {
     "id": "ent.ldap.validate_filter.app_error",
@@ -3161,7 +3161,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Numele de utilizator deja folosit de alt utilizator de Mattermost."
+    "translation": "Numele de utilizator deja folosit de alt utilizator de BizerOS Chat."
   },
   {
     "id": "ent.saml.attribute.app_error",
@@ -3245,7 +3245,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Buletin de securitate Mattermost"
+    "translation": "Buletin de securitate BizerOS Chat"
   },
   {
     "id": "mfa.activate.bad_token.app_error",
@@ -4385,7 +4385,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Termenii și condițiile GitLab au fost actualizați. Te rog du-te la gitlab.com pentru a le accepta și apoi încercați să vă conectați din nou la Mattermost."
+    "translation": "Termenii și condițiile GitLab au fost actualizați. Te rog du-te la gitlab.com pentru a le accepta și apoi încercați să vă conectați din nou la BizerOS Chat."
   },
   {
     "id": "plugin.api.update_user_status.bad_status",
@@ -4549,11 +4549,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Această versiune a browserului nu mai este suportată de Mattermost"
+    "translation": "Această versiune a browserului nu mai este suportată de BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Acest browser nu mai este suportat de Mattermost"
+    "translation": "Acest browser nu mai este suportat de BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -4597,7 +4597,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Descărcați aplicația Mattermost sau utilizați un browser acceptat pentru o experiență mai bună."
+    "translation": "Descărcați aplicația BizerOS Chat sau utilizați un browser acceptat pentru o experiență mai bună."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -6441,31 +6441,31 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition. Semnătura digitală a fișierului binar descărcat nu a putut fi verificată."
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition. Semnătura digitală a fișierului binar descărcat nu a putut fi verificată."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition."
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition. Această caracteristică va funcționa numai pe sistemele Linux cu arhitectură x86-64."
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition. Această caracteristică va funcționa numai pe sistemele Linux cu arhitectură x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului Mattermost {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade Mattermost din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului BizerOS Chat {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat BizerOS Chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade BizerOS Chat din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului Mattermost {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade Mattermost din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului BizerOS Chat {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat BizerOS Chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade BizerOS Chat din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului Mattermost {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade Mattermost din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchmod +w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition. Utilizatorul sistemului BizerOS Chat {{.MattermostUsername}} nu are acces la scriere la fișierul binar necesar. Un administrator de sistem poate actualiza permisiunile fișierului executând următoarea comandă pe serverul pe care este instalat BizerOS Chat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nDupă modificarea permisiunilor fișierului, încercați să faceți upgrade BizerOS Chat din nou. După ce ați făcut upgrade și reporniți, nu uitați să restaurați permisiunile originale ale fișierului binar:\n\n```\nchmod +w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost nu a reușit să facă upgrade la Enterprise Edition."
+    "translation": "BizerOS Chat nu a reușit să facă upgrade la Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -7369,7 +7369,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Invitați clustere Mattermost la distanță pentru comunicarea inter-cluster."
+    "translation": "Invitați clustere BizerOS Chat la distanță pentru comunicarea inter-cluster."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7445,7 +7445,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Ce este Mattermost?"
+    "translation": "Ce este BizerOS Chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7453,11 +7453,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost este o platformă de mesagerie flexibilă, open source, care permite colaborarea securizată în echipă."
+    "translation": "BizerOS Chat este o platformă de mesagerie flexibilă, open source, care permite colaborarea securizată în echipă."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Începeți să colaborați cu echipa dvs. pe Mattermost"
+    "translation": "Începeți să colaborați cu echipa dvs. pe BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -7509,11 +7509,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Descărcați aplicația Mattermost"
+    "translation": "Descărcați aplicația BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Deschideți Mattermost"
+    "translation": "Deschideți BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7717,7 +7717,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Partajează canalul curent cu o instanță Mattermost de la distanță."
+    "translation": "Partajează canalul curent cu o instanță BizerOS Chat de la distanță."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",

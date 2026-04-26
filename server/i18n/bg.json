@@ -53,11 +53,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Тази версия на вашия браузър вече не се поддържа от Mattermost"
+    "translation": "Тази версия на вашия браузър вече не се поддържа от BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Този браузър вече не се поддържа от Mattermost"
+    "translation": "Този браузър вече не се поддържа от BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -101,7 +101,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Изтеглете приложението Mattermost или използвайте поддържан браузър за по-добро изживяване."
+    "translation": "Изтеглете приложението BizerOS Chat или използвайте поддържан браузър за по-добро изживяване."
   },
   {
     "id": "web.error.unsupported_browser.download",
@@ -237,7 +237,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "Общите условия на GitLab са актуализирани. Моля, отидете на gitlab.com, за да ги приемете и след това опитайте да влезете в Mattermost отново."
+    "translation": "Общите условия на GitLab са актуализирани. Моля, отидете на gitlab.com, за да ги приемете и след това опитайте да влезете в BizerOS Chat отново."
   },
   {
     "id": "model.websocket_client.connect_fail.app_error",
@@ -1269,7 +1269,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Потребителско име вече се използва от друг потребител на Mattermost."
+    "translation": "Потребителско име вече се използва от друг потребител на BizerOS Chat."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -1689,7 +1689,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Неуспешно търсене на потребители в AD/LDAP. Проверете дали Mattermost сървъра може да се свърже с вашия AD/LDAP сървър и опитайте отново."
+    "translation": "Неуспешно търсене на потребители в AD/LDAP. Проверете дали BizerOS Chat сървъра може да се свърже с вашия AD/LDAP сървър и опитайте отново."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -1725,7 +1725,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Вашият AD/LDAP профил няма разрешение за използване на този Mattermost сървър. Моля, помолете вашия системен администратор да провери AD/LDAP потребителския филтър."
+    "translation": "Вашият AD/LDAP профил няма разрешение за използване на този BizerOS Chat сървър. Моля, помолете вашия системен администратор да провери AD/LDAP потребителския филтър."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2161,7 +2161,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost бюлетин за сигурност"
+    "translation": "BizerOS Chat бюлетин за сигурност"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
@@ -2977,39 +2977,39 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Цифровия подпис на сваления двоичен файл не може да се провери."
+    "translation": "BizerOS Chat не можа да надстрои до корпоративна версия. Цифровия подпис на сваления двоичен файл не може да се провери."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost не може да се надстрои до корпоративна версия."
+    "translation": "BizerOS Chat не може да се надстрои до корпоративна версия."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Тази функция ще работи само в Linux системи с x86-64 архитектура."
+    "translation": "BizerOS Chat не можа да надстрои до корпоративна версия. Тази функция ще работи само в Linux системи с x86-64 архитектура."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat не можа да надстрои до корпоративна версия. Системния потребител BizerOS Chat {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран BizerOS Chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново BizerOS Chat. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat не можа да надстрои до корпоративна версия. Системния потребител BizerOS Chat {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира правата за файлове, като изпълни следната команда на сървъра, където е инсталиран BizerOS Chat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново BizerOS Chat. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost не можа да надстрои до корпоративна версия. Системния потребител Mattermost {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира разрешенията за файлове, като изпълни следната команда на сървъра, където е инсталиран Mattermost:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново Mattermost. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat не можа да надстрои до корпоративна версия. Системния потребител BizerOS Chat {{.MattermostUsername}} няма права за запис до необходимия двоичен файл. Системният администратор може да актуализира разрешенията за файлове, като изпълни следната команда на сървъра, където е инсталиран BizerOS Chat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nСлед като промените правата за файлове, опитайте да надстроите отново BizerOS Chat. След като надстроите и рестартирате, не забравяйте да възстановите оригиналните права на двоичния файл:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost не може да се надстрои до корпоративна версия."
+    "translation": "BizerOS Chat не може да се надстрои до корпоративна версия."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
-    "translation": "Надстройката до Mattermost корпоративна версия е вече пусната."
+    "translation": "Надстройката до BizerOS Chat корпоративна версия е вече пусната."
   },
   {
     "id": "api.upgrade_to_enterprise.already-enterprise.app_error",
-    "translation": "Не можете да надстроите, защото вече използвате Mattermost корпоративна версия."
+    "translation": "Не можете да надстроите, защото вече използвате BizerOS Chat корпоративна версия."
   },
   {
     "id": "app.webhooks.get_outgoing.app_error",
@@ -3457,7 +3457,7 @@
   },
   {
     "id": "api.upgrade_to_enterprise.already-done.app_error",
-    "translation": "Вече надградихте до Mattermost корпоративна версия. Моля, рестартирайте сървъра, за да завършите надстройката."
+    "translation": "Вече надградихте до BizerOS Chat корпоративна версия. Моля, рестартирайте сървъра, за да завършите надстройката."
   },
   {
     "id": "api.templates.welcome_subject",
@@ -3469,7 +3469,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Този адрес на ел.поща е използван за създаване на профил в Mattermost."
+    "translation": "Този адрес на ел.поща е използван за създаване на профил в BizerOS Chat."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -3489,7 +3489,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Този адрес на ел.поща е използван за създаване на профил в Mattermost."
+    "translation": "Този адрес на ел.поща е използван за създаване на профил в BizerOS Chat."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -3549,7 +3549,7 @@
   },
   {
     "id": "api.templates.remove_expired_license.subject",
-    "translation": "Лицензът за Mattermost корпоративна е деактивиран."
+    "translation": "Лицензът за BizerOS Chat корпоративна е деактивиран."
   },
   {
     "id": "api.templates.post_body.button",
@@ -4863,7 +4863,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Трябва да приемете Mattermost споразумение за оценка на софтуера и политиката за поверителност, за да поискате лиценз."
+    "translation": "Трябва да приемете BizerOS Chat споразумение за оценка на софтуера и политиката за поверителност, за да поискате лиценз."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -5422,7 +5422,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Излез от Mattermost"
+    "translation": "Излез от BizerOS Chat"
   },
   {
     "id": "api.command_leave.name",
@@ -5530,7 +5530,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Отвори помощната страница на Mattermost"
+    "translation": "Отвори помощната страница на BizerOS Chat"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -6109,7 +6109,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost Slack импорт дневник\n"
+    "translation": "BizerOS Chat Slack импорт дневник\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -6121,11 +6121,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack потребител е обединен с Mattermost потребител поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към екипа.\n"
+    "translation": "Slack потребител е обединен с BizerOS Chat потребител поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}., но потребителя не може да бъде добавен към екипа.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack потребител е обединен с Mattermost поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}.\n"
+    "translation": "Slack потребител е обединен с BizerOS Chat поради съвпадащи ел.поща {{.Email}} и потребителско име {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -6133,7 +6133,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack канала {{.DisplayName}} вече съществува като активен Mattermost канал. Двата канала са обединени.\n"
+    "translation": "Slack канала {{.DisplayName}} вече съществува като активен BizerOS Chat канал. Двата канала са обединени.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -6565,7 +6565,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Изпратете ел.поща с покана във вашия екип на Mattermost"
+    "translation": "Изпратете ел.поща с покана във вашия екип на BizerOS Chat"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -6873,7 +6873,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузър или Mattermost настолното приложение."
+    "translation": "Моля, добавете ме към екипи и канали, в които искате да взаимодействам. За целта използвайте браузър или BizerOS Chat настолното приложение."
   },
   {
     "id": "api.bot.create_disabled",
@@ -6905,7 +6905,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Тестване на настройките за ел.поща"
+    "translation": "BizerOS Chat - Тестване на настройките за ел.поща"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -6917,7 +6917,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Изглежда вашата Mattermost ел.поща е настроена правилно!"
+    "translation": "Изглежда вашата BizerOS Chat ел.поща е настроена правилно!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -7321,7 +7321,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Какво е Mattermost?"
+    "translation": "Какво е BizerOS Chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7329,11 +7329,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost е гъвкава платформа за съобщения с отворен код, която позволява сигурна работа в екип."
+    "translation": "BizerOS Chat е гъвкава платформа за съобщения с отворен код, която позволява сигурна работа в екип."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Започнете да сътрудничите с екипа си в Mattermost"
+    "translation": "Започнете да сътрудничите с екипа си в BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -7385,11 +7385,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Изтеглете приложението Mattermost"
+    "translation": "Изтеглете приложението BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Отворете Mattermost"
+    "translation": "Отворете BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7421,7 +7421,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Приемане на покана от външна инстанция на Mattermost"
+    "translation": "Приемане на покана от външна инстанция на BizerOS Chat"
   },
   {
     "id": "api.channel.patch_channel_moderations.cache_invalidation.error",
@@ -7429,7 +7429,7 @@
   },
   {
     "id": "api.command_share.desc",
-    "translation": "Споделя текущия канал с външна инстанция на Mattermost."
+    "translation": "Споделя текущия канал с външна инстанция на BizerOS Chat."
   },
   {
     "id": "api.command_share.could_not_uninvite.error",
@@ -7537,7 +7537,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Изпратете следната AES 256-битова криптирана покана на външния системен администратор на Mattermost заедно с паролата. Те ще използват командата с наклонена черта `{{.Command}}` , за да приемат поканата.\n\n```\n{{.Invitation}}\n```\n\n**Осигурете достъп на защитената връзка до вашата инстанция на Mattermost чрез** {{.SiteURL}}"
+    "translation": "Изпратете следната AES 256-битова криптирана покана на външния системен администратор на BizerOS Chat заедно с паролата. Те ще използват командата с наклонена черта `{{.Command}}` , за да приемат поканата.\n\n```\n{{.Invitation}}\n```\n\n**Осигурете достъп на защитената връзка до вашата инстанция на BizerOS Chat чрез** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -7585,7 +7585,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Покана за защитени връзки за комуникация между инстанциите на Mattermost."
+    "translation": "Покана за защитени връзки за комуникация между инстанциите на BizerOS Chat."
   },
   {
     "id": "api.command_remote.decode_invitation.error",
@@ -7641,7 +7641,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Влезте в Mattermost"
+    "translation": "Влезте в BizerOS Chat"
   },
   {
     "id": "app.notification.footer.info",
@@ -7769,7 +7769,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Отворете Mattermost"
+    "translation": "Отворете BizerOS Chat"
   },
   {
     "id": "api.context.remote_id_missing.app_error",
@@ -7889,7 +7889,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Покани външна инстанция на Mattermost към текущия споделен канал"
+    "translation": "Покани външна инстанция на BizerOS Chat към текущия споделен канал"
   },
   {
     "id": "api.command_share.invitation_sent",
@@ -7961,11 +7961,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Вашият абонамент за Mattermost подлежи на подновяване"
+    "translation": "Вашият абонамент за BizerOS Chat подлежи на подновяване"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, абонаментът Ви изтича след {{.Days}} дни. Надяваме се, че ще се насладите на гъвкавото и сигурно екипно сътрудничество, което Mattermost позволява. Подновете абонамента си скоро, за да гарантирате, че екипът Ви ще продължи да се възползва от тези предимства."
+    "translation": "{{.UserName}}, абонаментът Ви изтича след {{.Days}} дни. Надяваме се, че ще се насладите на гъвкавото и сигурно екипно сътрудничество, което BizerOS Chat позволява. Подновете абонамента си скоро, за да гарантирате, че екипът Ви ще продължи да се възползва от тези предимства."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8157,7 +8157,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost е платформа с отворен код за сигурна комуникация, сътрудничество и организиране на работата между инструменти и екипи.\nMattermost съдържа два основни инструмента:\n\n**Канали** - поддържайте връзка с екипа си чрез 1:1 и групови съобщения.\n**[Playbooks](/playbooks)** - Изграждайте и конфигурирайте повтарящи се процеси за постигане на конкретни и предвидими резултати.\n\n[Преглед на документация и ръководства]({{.HelpLink}})"
+    "translation": "BizerOS Chat е платформа с отворен код за сигурна комуникация, сътрудничество и организиране на работата между инструменти и екипи.\nMattermost съдържа два основни инструмента:\n\n**Канали** - поддържайте връзка с екипа си чрез 1:1 и групови съобщения.\n**[Playbooks](/playbooks)** - Изграждайте и конфигурирайте повтарящи се процеси за постигане на конкретни и предвидими резултати.\n\n[Преглед на документация и ръководства]({{.HelpLink}})"
   },
   {
     "id": "api.command_invite.successOverflow",
@@ -8229,7 +8229,7 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "Не може да се активира функцията за автоматично попълване за канала, тъй като схемата на индекса на каналите е остаряла. Препоръчително е да регенерирате индекса на канала. За повече информация вижте списъка с промените в Mattermost"
+    "translation": "Не може да се активира функцията за автоматично попълване за канала, тъй като схемата на индекса на каналите е остаряла. Препоръчително е да регенерирате индекса на канала. За повече информация вижте списъка с промените в BizerOS Chat"
   },
   {
     "id": "api.context.outgoing_oauth_connection.list_connections.app_error",

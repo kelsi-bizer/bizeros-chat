@@ -2341,7 +2341,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Uživatelské jméno již použivá jiný uživatel Mattermost."
+    "translation": "Uživatelské jméno již použivá jiný uživatel BizerOS Chat."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -2397,7 +2397,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Nepodařilo se vyhletat uživatele na AD/LDAP serveru. Otestujte zda se Mattermost dokáže připojit k AD/LDAP serveru a zkuste to znova."
+    "translation": "Nepodařilo se vyhletat uživatele na AD/LDAP serveru. Otestujte zda se BizerOS Chat dokáže připojit k AD/LDAP serveru a zkuste to znova."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -2417,7 +2417,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Váš účet AD / LDAP nemá oprávnění používat tento Mattermost server. Požádejte správce systému, aby zkontroloval uživatelský filtr AD/LDAP."
+    "translation": "Váš účet AD / LDAP nemá oprávnění používat tento BizerOS Chat server. Požádejte správce systému, aby zkontroloval uživatelský filtr AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -2465,7 +2465,7 @@
   },
   {
     "id": "ent.elasticsearch.test_config.license.error",
-    "translation": "Vaše licence Mattermost nepodporuje indexované vyhledávání."
+    "translation": "Vaše licence BizerOS Chat nepodporuje indexované vyhledávání."
   },
   {
     "id": "ent.elasticsearch.test_config.indexing_disabled.error",
@@ -2993,11 +2993,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack uživatel byl propojen s existujícím Mattermost uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}, avšak nemohl být přidán do týmu.\n"
+    "translation": "Slack uživatel byl propojen s existujícím BizerOS Chat uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}, avšak nemohl být přidán do týmu.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack uživatel byl propojen s existujícím Mattermost uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}.\n"
+    "translation": "Slack uživatel byl propojen s existujícím BizerOS Chat uživatelem se shodným emailem {{.Email}} a uživatelským jménem {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -4037,7 +4037,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Odhlásit se z Mattermost"
+    "translation": "Odhlásit se z BizerOS Chat"
   },
   {
     "id": "api.command_leave.name",
@@ -4893,7 +4893,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testování Nastavení E-Mailu"
+    "translation": "BizerOS Chat - Testování Nastavení E-Mailu"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -4905,7 +4905,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Zdá se, že váš e-mail pro Mattermost je nastaven správně!"
+    "translation": "Zdá se, že váš e-mail pro BizerOS Chat je nastaven správně!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -5073,7 +5073,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Chcete-li požádat o licenci, musíte odsouhlasit Dohodu o vyhodnocování softwaru Mattermost a Zásady ochrany osobních údajů."
+    "translation": "Chcete-li požádat o licenci, musíte odsouhlasit Dohodu o vyhodnocování softwaru BizerOS Chat a Zásady ochrany osobních údajů."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -5789,31 +5789,31 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost nemohl být aktualizován na Enterprise edici. Digitální podpis staženého souboru nemohl být ověřen."
+    "translation": "BizerOS Chat nemohl být aktualizován na Enterprise edici. Digitální podpis staženého souboru nemohl být ověřen."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost nemohl být aktualizován na Enterprise edici."
+    "translation": "BizerOS Chat nemohl být aktualizován na Enterprise edici."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Toto vylepšení funguje pouze na Linuxových systémech s architekturou x86-64."
+    "translation": "Nepodařilo se aktualizovat BizerOS Chat na Enterprise edici. Toto vylepšení funguje pouze na Linuxových systémech s architekturou x86-64."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat BizerOS Chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je BizerOS Chat instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je Mattermost instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat BizerOS Chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je BizerOS Chat instalován:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Nepodařilo se aktualizovat Mattermost na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je Mattermost instalován:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "Nepodařilo se aktualizovat BizerOS Chat na Enterprise edici. Systémový uživatel {{.MattermostUsername}} nemá oprávnění zápisu do patřičného binárního souboru. Systémový administrátor může upravit oprávnění k souboru spuštěním následujícího příkazu na serveru, kde je BizerOS Chat instalován:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nPo změně oprávnění se pokuste provést aktualizaci Mattermostu ještě jednou. Poté, co bude aktualizace dokončena a server restartován, nezapomeňte vrátit oprávnění k souboru na původní hodnotu:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost nemohl být aktualizován na Enterprise edici."
+    "translation": "BizerOS Chat nemohl být aktualizován na Enterprise edici."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -6601,7 +6601,7 @@
   },
   {
     "id": "api.command_remote.accept.help",
-    "translation": "Přijmout pozvánku z externí instance Mattermost"
+    "translation": "Přijmout pozvánku z externí instance BizerOS Chat"
   },
   {
     "id": "api.command_remote.accept_invitation",
@@ -6657,7 +6657,7 @@
   },
   {
     "id": "api.command_remote.desc",
-    "translation": "Pozvěte zabezpečená připojení pro komunikaci mezi instancemi Mattermost."
+    "translation": "Pozvěte zabezpečená připojení pro komunikaci mezi instancemi BizerOS Chat."
   },
   {
     "id": "api.command_marketplace.unsupported.app_error",
@@ -6681,7 +6681,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Tento prohlížeč již Mattermost nepodporuje"
+    "translation": "Tento prohlížeč již BizerOS Chat nepodporuje"
   },
   {
     "id": "web.incoming_webhook.channel_locked.app_error",
@@ -6737,7 +6737,7 @@
   },
   {
     "id": "api.command_remote.invite_summary",
-    "translation": "Externímu správci systému Mattermost odešlete následující pozvánku zašifrovanou 256bitovým algoritmem AES spolu s heslem. K přijetí pozvánky použije příkaz `{{.Command}}` s lomítkem.\n\n```\n{{.Invitation}}\n```\n\n**Zajistěte, aby zabezpečené připojení mohlo přistupovat k vaší instanci Mattermostu prostřednictvím** {{.SiteURL}}"
+    "translation": "Externímu správci systému BizerOS Chat odešlete následující pozvánku zašifrovanou 256bitovým algoritmem AES spolu s heslem. K přijetí pozvánky použije příkaz `{{.Command}}` s lomítkem.\n\n```\n{{.Invitation}}\n```\n\n**Zajistěte, aby zabezpečené připojení mohlo přistupovat k vaší instanci Mattermostu prostřednictvím** {{.SiteURL}}"
   },
   {
     "id": "api.command_remote.invite_password.hint",
@@ -6769,7 +6769,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje dva klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
+    "translation": "BizerOS Chat je open source platforma pro bezpečnou komunikaci, spolupráci a orchestraci práce napříč nástroji a týmy.\nMattermost obsahuje dva klíčové nástroje:\n\n**Kanály** - Zůstaňte ve spojení se svým týmem prostřednictvím zpráv 1:1 a skupinových zpráv.\n**[Playbooks](/playbooks)** - Vytvářejte a konfigurujte opakovatelné procesy k dosažení konkrétních a předvídatelných výsledků.\n\n[Zobrazit dokumentaci a průvodce]({{.HelpLink}})"
   },
   {
     "id": "api.command_custom_status.clear.app_error",
@@ -7029,7 +7029,7 @@
   },
   {
     "id": "api.command_share.invite_remote.help",
-    "translation": "Pozve externí instanci Mattermost do aktuálního sdíleného kanálu"
+    "translation": "Pozve externí instanci BizerOS Chat do aktuálního sdíleného kanálu"
   },
   {
     "id": "api.command_share.missing_action",
@@ -7337,7 +7337,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost je flexibilní, open source platforma pro zasílání zpráv, která umožňuje bezpečnou týmovou spolupráci."
+    "translation": "BizerOS Chat je flexibilní, open source platforma pro zasílání zpráv, která umožňuje bezpečnou týmovou spolupráci."
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7345,7 +7345,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Co je Mattermost?"
+    "translation": "Co je BizerOS Chat?"
   },
   {
     "id": "api.templates.invite_body_guest.subTitle",
@@ -7505,7 +7505,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, vaše předplatné vyprší za {{.Days}} dnů. Doufáme, že si užíváte flexibilní a bezpečnou týmovou spolupráci, kterou Mattermost nabízí. Obnovte jej co nejdříve, aby váš tým mohl nadále využívat tyto výhody."
+    "translation": "{{.UserName}}, vaše předplatné vyprší za {{.Days}} dnů. Doufáme, že si užíváte flexibilní a bezpečnou týmovou spolupráci, kterou BizerOS Chat nabízí. Obnovte jej co nejdříve, aby váš tým mohl nadále využívat tyto výhody."
   },
   {
     "id": "api.templates.welcome_body.subTitle2",
@@ -7517,7 +7517,7 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Vaše předplatné služby Mattermost čeká na obnovení"
+    "translation": "Vaše předplatné služby BizerOS Chat čeká na obnovení"
   },
   {
     "id": "api.templates.questions_footer.title",
@@ -7685,7 +7685,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Otevřít Mattermost"
+    "translation": "Otevřít BizerOS Chat"
   },
   {
     "id": "api.license.request-trial.can-start-trial.error",
@@ -7801,7 +7801,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Otevřít Mattermost"
+    "translation": "Otevřít BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.info",
@@ -7809,7 +7809,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Stáhněte si aplikaci Mattermost"
+    "translation": "Stáhněte si aplikaci BizerOS Chat"
   },
   {
     "id": "api.templates.ip_filters_changed_footer.send_an_email_to",
@@ -8201,7 +8201,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Přihlášení do Mattermost"
+    "translation": "Přihlášení do BizerOS Chat"
   },
   {
     "id": "app.channel.gm_conversion_set_categories.delete_all.error",
@@ -9777,7 +9777,7 @@
   },
   {
     "id": "web.error.unsupported_browser.download_app_or_upgrade_browser",
-    "translation": "Stáhněte si aplikaci Mattermost nebo použijte podporovaný prohlížeč pro lepší zážitek."
+    "translation": "Stáhněte si aplikaci BizerOS Chat nebo použijte podporovaný prohlížeč pro lepší zážitek."
   },
   {
     "id": "model.config.is_valid.storage_class.app_error",

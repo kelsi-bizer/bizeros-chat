@@ -109,7 +109,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost – Testiranje postavki e-pošte"
+    "translation": "BizerOS Chat – Testiranje postavki e-pošte"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -121,7 +121,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Čini se da je tvoja Mattermost e-pošta pravilno postavljena!"
+    "translation": "Čini se da je tvoja BizerOS Chat e-pošta pravilno postavljena!"
   },
   {
     "id": "api.admin.saml.not_available.app_error",
@@ -205,7 +205,7 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Otvori Mattermost"
+    "translation": "Otvori BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -461,7 +461,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Pošalji e-mail pozivnicu tvom Mattermost timu"
+    "translation": "Pošalji e-mail pozivnicu tvom BizerOS Chat timu"
   },
   {
     "id": "api.channel.remove_member.removed",
@@ -821,7 +821,7 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Mattermost više ne podržava ovaj preglednik"
+    "translation": "BizerOS Chat više ne podržava ovaj preglednik"
   },
   {
     "id": "system.message.name",

@@ -53,11 +53,11 @@
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support_version",
-    "translation": "Den här versionen av webbläsaren stöds inte längre av Mattermost"
+    "translation": "Den här versionen av webbläsaren stöds inte längre av BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.no_longer_support",
-    "translation": "Den här webbläsaren stöds inte längre av Mattermost"
+    "translation": "Den här webbläsaren stöds inte längre av BizerOS Chat"
   },
   {
     "id": "web.error.unsupported_browser.min_os_version.windows",
@@ -237,7 +237,7 @@
   },
   {
     "id": "oauth.gitlab.tos.error",
-    "translation": "GitLab's användningsvillkor har uppdaterats. Gå till {{.URL}} för att acceptera dem och logga sedan in i Mattermost igen."
+    "translation": "GitLab's användningsvillkor har uppdaterats. Gå till {{.URL}} för att acceptera dem och logga sedan in i BizerOS Chat igen."
   },
   {
     "id": "model.group_syncable.syncable_id.app_error",
@@ -997,7 +997,7 @@
   },
   {
     "id": "mattermost.bulletin.subject",
-    "translation": "Mattermost Tavlan för säkerheten"
+    "translation": "BizerOS Chat Tavlan för säkerheten"
   },
   {
     "id": "manaultesting.test_autolink.unable.app_error",
@@ -2617,7 +2617,7 @@
   },
   {
     "id": "ent.migration.migratetosaml.username_already_used_by_other_user",
-    "translation": "Användarnamnet används redan av en annan Mattermost-användare."
+    "translation": "Användarnamnet används redan av en annan BizerOS Chat-användare."
   },
   {
     "id": "ent.migration.migratetosaml.user_not_found_in_users_mapping_file",
@@ -2681,7 +2681,7 @@
   },
   {
     "id": "ent.ldap.syncronize.search_failure.app_error",
-    "translation": "Kunde inte söka på användare i AD/LDAP. Testa om Mattermost-servern kan ansluta till din AD/LDAP-server och försök igen."
+    "translation": "Kunde inte söka på användare i AD/LDAP. Testa om BizerOS Chat-servern kan ansluta till din AD/LDAP-server och försök igen."
   },
   {
     "id": "ent.ldap.syncronize.populate_syncables",
@@ -2717,7 +2717,7 @@
   },
   {
     "id": "ent.ldap.do_login.user_filtered.app_error",
-    "translation": "Ditt AD/LDAP-konto har inte behörighet för att använda denna Mattermost-server. Be din systemadministratör att kolla användarfiltret för AD/LDAP."
+    "translation": "Ditt AD/LDAP-konto har inte behörighet för att använda denna BizerOS Chat-server. Be din systemadministratör att kolla användarfiltret för AD/LDAP."
   },
   {
     "id": "ent.ldap.do_login.unable_to_connect.app_error",
@@ -4501,7 +4501,7 @@
   },
   {
     "id": "api.templates.post_body.button",
-    "translation": "Svara i Mattermost"
+    "translation": "Svara i BizerOS Chat"
   },
   {
     "id": "api.templates.password_change_subject",
@@ -4977,7 +4977,7 @@
   },
   {
     "id": "api.slackimport.slack_import.log",
-    "translation": "Mattermost log för Slack-import\n"
+    "translation": "BizerOS Chat log för Slack-import\n"
   },
   {
     "id": "api.slackimport.slack_add_users.unable_import",
@@ -4989,11 +4989,11 @@
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing_failed",
-    "translation": "Slack-användare sammanslagen med en befintlig Mattermost-användare med {{.Email}} och användarid {{.Username}}, men kunde inte läggas till i gruppen.\n"
+    "translation": "Slack-användare sammanslagen med en befintlig BizerOS Chat-användare med {{.Email}} och användarid {{.Username}}, men kunde inte läggas till i gruppen.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.merge_existing",
-    "translation": "Slack-användare sammanslagen med en befintlig Mattermost-användare med {{.Email}} och användarid {{.Username}}.\n"
+    "translation": "Slack-användare sammanslagen med en befintlig BizerOS Chat-användare med {{.Email}} och användarid {{.Username}}.\n"
   },
   {
     "id": "api.slackimport.slack_add_users.created",
@@ -5001,7 +5001,7 @@
   },
   {
     "id": "api.slackimport.slack_add_channels.merge",
-    "translation": "Slack-kanalen {{.DisplayName}} finns redan som en aktiv kanal i Mattermost. Kanalerna har slagits samman.\n"
+    "translation": "Slack-kanalen {{.DisplayName}} finns redan som en aktiv kanal i BizerOS Chat. Kanalerna har slagits samman.\n"
   },
   {
     "id": "api.slackimport.slack_add_channels.import_failed",
@@ -5193,7 +5193,7 @@
   },
   {
     "id": "api.license.request-trial.bad-request.terms-not-accepted",
-    "translation": "Du måste acceptera Mattermost Software Evaluation Agreement och Privacy Policy för att efterfråga en licens."
+    "translation": "Du måste acceptera BizerOS Chat Software Evaluation Agreement och Privacy Policy för att efterfråga en licens."
   },
   {
     "id": "api.license.request-trial.bad-request",
@@ -5397,31 +5397,31 @@
   },
   {
     "id": "api.upgrade_to_enterprise_status.signature.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Signaturen på den nedladdade filen kunde inte verifieras rätt."
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition. Signaturen på den nedladdade filen kunde inte verifieras rätt."
   },
   {
     "id": "api.upgrade_to_enterprise_status.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition."
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.system_not_supported.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Denna funktion fungerar bara på Linux-system med x86-64-arkitektur."
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition. Denna funktion fungerar bara på Linux-system med x86-64-arkitektur."
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition. BizerOS Chat system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där BizerOS Chat är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera BizerOS Chat igen. När BizerOS Chat är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-user-and-permission.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition. BizerOS Chat system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där BizerOS Chat är installerat:\n\n```\nchown {{.MattermostUsername}} \"{{.Path}}\"\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera BizerOS Chat igen. När BizerOS Chat är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchown {{.FileUsername}} \"{{.Path}}\"\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.invalid-permission.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Enterprise Edition. Mattermost system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där Mattermost är installerat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera Mattermost igen. När Mattermost är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchmod -w \"{{.Path}}\"\n```"
+    "translation": "BizerOS Chat kunde inte uppgradera till Enterprise Edition. BizerOS Chat system-användare {{.MattermostUsername}} har inte skrivrättigheter till nödvändiga programfiler. En systemadministratör kan uppdatera filrättigheterna genom att köra kommandot nedan på den server där BizerOS Chat är installerat:\n\n```\nchmod +w \"{{.Path}}\"\n```\n\nEfter att filrättigheterna är ändrade, försök uppgradera BizerOS Chat igen. När BizerOS Chat är uppgraderad och omstartad, kom ihåg att återställa filrättigheterna med:\n\n```\nchmod -w \"{{.Path}}\"\n```"
   },
   {
     "id": "api.upgrade_to_enterprise.generic_error.app_error",
-    "translation": "Mattermost kunde inte uppgradera till Mattermost Enterprise Edition."
+    "translation": "BizerOS Chat kunde inte uppgradera till Mattermost Enterprise Edition."
   },
   {
     "id": "api.upgrade_to_enterprise.app_error",
@@ -5445,7 +5445,7 @@
   },
   {
     "id": "api.templates.welcome_body.info",
-    "translation": "Din mejladress användes för att skapa ett konto hos Mattermost."
+    "translation": "Din mejladress användes för att skapa ett konto hos BizerOS Chat."
   },
   {
     "id": "api.templates.welcome_body.button",
@@ -5465,7 +5465,7 @@
   },
   {
     "id": "api.templates.verify_body.info",
-    "translation": "Denna mejladress användes för att skapa ett konto hos Mattermost."
+    "translation": "Denna mejladress användes för att skapa ett konto hos BizerOS Chat."
   },
   {
     "id": "api.templates.verify_body.button",
@@ -5964,7 +5964,7 @@
   },
   {
     "id": "api.command_logout.desc",
-    "translation": "Logga ut från Mattermost"
+    "translation": "Logga ut från BizerOS Chat"
   },
   {
     "id": "api.command_leave.name",
@@ -6075,7 +6075,7 @@
   },
   {
     "id": "api.command_help.desc",
-    "translation": "Visa Mattermost hjälpmeddelande"
+    "translation": "Visa BizerOS Chat hjälpmeddelande"
   },
   {
     "id": "api.command_groupmsg.permission.app_error",
@@ -6572,7 +6572,7 @@
   },
   {
     "id": "api.command.invite_people.desc",
-    "translation": "Skicka en e-postinbjudan till din Mattermost grupp"
+    "translation": "Skicka en e-postinbjudan till din BizerOS Chat grupp"
   },
   {
     "id": "api.command.execute_command.start.app_error",
@@ -6880,7 +6880,7 @@
   },
   {
     "id": "api.bot.teams_channels.add_message_mobile",
-    "translation": "Lägg till mig i grupper och kanaler som du vill att jag ska interagera i. För att göra detta, använd webbläsare eller Mattermost skrivbordsapp."
+    "translation": "Lägg till mig i grupper och kanaler som du vill att jag ska interagera i. För att göra detta, använd webbläsare eller BizerOS Chat skrivbordsapp."
   },
   {
     "id": "api.bot.create_disabled",
@@ -6912,7 +6912,7 @@
   },
   {
     "id": "api.admin.test_email.subject",
-    "translation": "Mattermost - Testar epostinställningar"
+    "translation": "BizerOS Chat - Testar epostinställningar"
   },
   {
     "id": "api.admin.test_email.reenter_password",
@@ -6924,7 +6924,7 @@
   },
   {
     "id": "api.admin.test_email.body",
-    "translation": "Det verkar som om Mattermost e-postinställningar är korrekta!"
+    "translation": "Det verkar som om BizerOS Chat e-postinställningar är korrekta!"
   },
   {
     "id": "api.admin.saml.set_certificate_from_metadata.missing_content_type.app_error",
@@ -7332,7 +7332,7 @@
   },
   {
     "id": "api.templates.invite_body_footer.title",
-    "translation": "Vad är Mattermost?"
+    "translation": "Vad är BizerOS Chat?"
   },
   {
     "id": "api.templates.invite_body_footer.learn_more",
@@ -7340,11 +7340,11 @@
   },
   {
     "id": "api.templates.invite_body_footer.info",
-    "translation": "Mattermost är en flexibel meddelandeplattform byggd med öppen källkod som möjliggör säkert samarbete i temaet."
+    "translation": "BizerOS Chat är en flexibel meddelandeplattform byggd med öppen källkod som möjliggör säkert samarbete i temaet."
   },
   {
     "id": "api.templates.invite_body.subTitle",
-    "translation": "Börja samarbeta med ditt team med Mattermost"
+    "translation": "Börja samarbeta med ditt team med BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.title",
@@ -7396,11 +7396,11 @@
   },
   {
     "id": "api.templates.cloud_welcome_email.download_mm_info",
-    "translation": "Ladda ner Mattermost App"
+    "translation": "Ladda ner BizerOS Chat App"
   },
   {
     "id": "api.templates.cloud_welcome_email.button",
-    "translation": "Öppna Mattermost"
+    "translation": "Öppna BizerOS Chat"
   },
   {
     "id": "api.templates.cloud_welcome_email.app_market_place",
@@ -7867,7 +7867,7 @@
   },
   {
     "id": "app.notification.footer.infoLogin",
-    "translation": "Logga in på Mattermost"
+    "translation": "Logga in på BizerOS Chat"
   },
   {
     "id": "app.notification.footer.info",
@@ -7903,7 +7903,7 @@
   },
   {
     "id": "api.email_batching.send_batched_email_notification.button",
-    "translation": "Öppna Mattermost"
+    "translation": "Öppna BizerOS Chat"
   },
   {
     "id": "api.oauth.click_redirect",
@@ -7987,11 +7987,11 @@
   },
   {
     "id": "api.templates.license_up_for_renewal_title",
-    "translation": "Din Mattermost-prenumeration ska förnyas"
+    "translation": "Din BizerOS Chat-prenumeration ska förnyas"
   },
   {
     "id": "api.templates.license_up_for_renewal_subtitle",
-    "translation": "{{.UserName}}, din prenumeration löper ut om {{.Days}} dagar. Vi hoppas att du uppskattar det flexibla och säkra teamsamarbete som Mattermost möjliggör. Förnya prenumerationen för att ditt team ska kunna fortsätta njuta av funktionerna."
+    "translation": "{{.UserName}}, din prenumeration löper ut om {{.Days}} dagar. Vi hoppas att du uppskattar det flexibla och säkra teamsamarbete som BizerOS Chat möjliggör. Förnya prenumerationen för att ditt team ska kunna fortsätta njuta av funktionerna."
   },
   {
     "id": "api.templates.license_up_for_renewal_subject",
@@ -8343,7 +8343,7 @@
   },
   {
     "id": "api.command_help.success",
-    "translation": "Mattermost är en plattform med öppen källkod för säker kommunikation, samarbete och orkestrering av arbete över verktyg och team.\nMattermost innehåller tre viktiga verktyg:\n\n**Channels** - Håll kontakten med ditt team via 1:1 och gruppmeddelanden.\n**[Playbooks](/playbooks)** - Bygg och konfigurera repeterbara processer för att uppnå specifika och förutsägbara resultat.\n\n[Visa dokumentation och guider]({{.HelpLink}})"
+    "translation": "BizerOS Chat är en plattform med öppen källkod för säker kommunikation, samarbete och orkestrering av arbete över verktyg och team.\nMattermost innehåller tre viktiga verktyg:\n\n**Channels** - Håll kontakten med ditt team via 1:1 och gruppmeddelanden.\n**[Playbooks](/playbooks)** - Bygg och konfigurera repeterbara processer för att uppnå specifika och förutsägbara resultat.\n\n[Visa dokumentation och guider]({{.HelpLink}})"
   },
   {
     "id": "ent.saml.configure.certificate_parse_error.app_error",
@@ -9271,7 +9271,7 @@
   },
   {
     "id": "api.server.cws.disabled",
-    "translation": "Systemadministratören har stängt av samverkan med Mattermost Customer Portal."
+    "translation": "Systemadministratören har stängt av samverkan med BizerOS Chat Customer Portal."
   },
   {
     "id": "app.channel.add_member.deleted_user.app_error",
@@ -9479,7 +9479,7 @@
   },
   {
     "id": "api.config.update.elasticsearch.autocomplete_cannot_be_enabled_error",
-    "translation": "Autokomplettering av kanaler kan inte aktiveras eftersom indexschemat för kanaler är föråldrat. Vi rekommenderar att du omindexerar ditt kanalindex. Se Mattermost changelog för mer information"
+    "translation": "Autokomplettering av kanaler kan inte aktiveras eftersom indexschemat för kanaler är föråldrat. Vi rekommenderar att du omindexerar ditt kanalindex. Se BizerOS Chat changelog för mer information"
   },
   {
     "id": "ent.elasticsearch.purge_index.delete_failed",
@@ -10853,7 +10853,7 @@
   },
   {
     "id": "api.templates.guest_magic_link_body.title",
-    "translation": "Logga in till Mattermost"
+    "translation": "Logga in till BizerOS Chat"
   },
   {
     "id": "app.agents.get_services.app_error",
