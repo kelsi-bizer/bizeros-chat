@@ -1,63 +1,40 @@
-version: "3.7"
-
 services:
-  # One-shot init: ensures the bind-mount data directories exist and are
-  # writable by the mattermost user (UID 2000) before the chat container
-  # starts. Required because Docker creates new bind-mount paths as root,
-  # and the upstream Mattermost image is distroless (no shell to chown
-  # at entrypoint).
+  # One-shot init: prepares bind-mount data dirs to be writable by the
+  # mattermost user (UID 2000). Required because the upstream Mattermost
+  # image is distroless (no shell at entrypoint) so it can't chown its
+  # own paths on first boot.
   bizeros-chat-init:
-    container_name: bizeros-chat-init
-    image: alpine:3.20
-    user: "0:0"
-    restart: "no"
-    command: >
-      sh -c "
-        set -e &&
-        mkdir -p /target/config /target/data /target/logs /target/plugins /target/client-plugins /target/bleve-indexes &&
-        chown -R 2000:2000 /target &&
-        echo 'permissions ready'
-      "
+    image: bash:5
+    command:
+      - bash
+      - -c
+      - "mkdir -p /target/config /target/data /target/logs /target/plugins /target/client-plugins /target/bleve-indexes && chown -R 2000:2000 /target"
     volumes:
       - ${APP_DATA_DIR}/data/mattermost:/target
-    labels:
-      runtipi.managed: true
 
   bizeros-chat-db:
-    container_name: bizeros-chat-db
     image: postgres:15-alpine
-    restart: unless-stopped
     environment:
       POSTGRES_USER: bizeros
-      POSTGRES_PASSWORD: ${BIZEROS_DB_PASSWORD}
+      POSTGRES_PASSWORD: "${BIZEROS_DB_PASSWORD}"
       POSTGRES_DB: bizeros_chat
     volumes:
       - ${APP_DATA_DIR}/data/postgres:/var/lib/postgresql/data
-    networks:
-      - tipi_main_network
     healthcheck:
       test: ["CMD-SHELL", "pg_isready -U bizeros -d bizeros_chat"]
       interval: 10s
       timeout: 5s
       retries: 10
-    labels:
-      runtipi.managed: true
+      start_period: 30s
 
   bizeros-chat:
-    container_name: bizeros-chat
-    image: ghcr.io/kelsi-bizer/bizeros-chat:latest
-    restart: unless-stopped
-    depends_on:
-      bizeros-chat-init:
-        condition: service_completed_successfully
-      bizeros-chat-db:
-        condition: service_healthy
+    image: ghcr.io/kelsi-bizer/bizeros-chat:11.7.0
     environment:
       TZ: ${TZ:-UTC}
       MM_SQLSETTINGS_DRIVERNAME: postgres
       MM_SQLSETTINGS_DATASOURCE: "postgres://bizeros:${BIZEROS_DB_PASSWORD}@bizeros-chat-db:5432/bizeros_chat?sslmode=disable&connect_timeout=10"
       MM_BLEVESETTINGS_INDEXDIR: /mattermost/bleve-indexes
-      MM_SERVICESETTINGS_SITEURL: https://${APP_DOMAIN}
+      MM_SERVICESETTINGS_SITEURL: "https://${APP_DOMAIN}"
       # Override the binary's compiled-in "Mattermost" defaults so the
       # rebrand is consistent on first boot before any admin config edits.
       MM_TEAMSETTINGS_SITENAME: BizerOS Chat
@@ -69,30 +46,14 @@ services:
       - ${APP_DATA_DIR}/data/mattermost/plugins:/mattermost/plugins
       - ${APP_DATA_DIR}/data/mattermost/client-plugins:/mattermost/client/plugins
       - ${APP_DATA_DIR}/data/mattermost/bleve-indexes:/mattermost/bleve-indexes
-    networks:
-      - tipi_main_network
-    labels:
-      traefik.enable: true
-      traefik.http.middlewares.bizeros-chat-web-redirect.redirectscheme.scheme: https
-      traefik.http.services.bizeros-chat.loadbalancer.server.port: 8065
-      traefik.http.routers.bizeros-chat-insecure.rule: Host(`${APP_DOMAIN}`)
-      traefik.http.routers.bizeros-chat-insecure.entrypoints: web
-      traefik.http.routers.bizeros-chat-insecure.service: bizeros-chat
-      traefik.http.routers.bizeros-chat-insecure.middlewares: bizeros-chat-web-redirect
-      traefik.http.routers.bizeros-chat.rule: Host(`${APP_DOMAIN}`)
-      traefik.http.routers.bizeros-chat.entrypoints: websecure
-      traefik.http.routers.bizeros-chat.service: bizeros-chat
-      traefik.http.routers.bizeros-chat.tls.certresolver: myresolver
-      traefik.http.routers.bizeros-chat-local-insecure.rule: Host(`bizeros-chat.${LOCAL_DOMAIN}`)
-      traefik.http.routers.bizeros-chat-local-insecure.entrypoints: web
-      traefik.http.routers.bizeros-chat-local-insecure.service: bizeros-chat
-      traefik.http.routers.bizeros-chat-local-insecure.middlewares: bizeros-chat-web-redirect
-      traefik.http.routers.bizeros-chat-local.rule: Host(`bizeros-chat.${LOCAL_DOMAIN}`)
-      traefik.http.routers.bizeros-chat-local.entrypoints: websecure
-      traefik.http.routers.bizeros-chat-local.service: bizeros-chat
-      traefik.http.routers.bizeros-chat-local.tls: true
-      runtipi.managed: true
+    depends_on:
+      bizeros-chat-db:
+        condition: service_healthy
+      bizeros-chat-init:
+        condition: service_completed_successfully
+    x-runtipi:
+      is_main: true
+      internal_port: 8065
 
-networks:
-  tipi_main_network:
-    external: true
+x-runtipi:
+  schema_version: 2
