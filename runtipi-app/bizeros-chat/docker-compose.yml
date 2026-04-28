@@ -23,7 +23,7 @@ services:
 
   bizeros-chat:
     container_name: bizeros-chat
-    image: ghcr.io/kelsi-bizer/bizeros-chat:latest
+    image: ghcr.io/kelsi-bizer/bizeros-chat:claude-rebrand-to-bizeros-chat-zTG6I
     restart: unless-stopped
     depends_on:
       bizeros-chat-db:
