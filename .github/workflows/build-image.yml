@@ -57,6 +57,11 @@ jobs:
             type=semver,pattern={{major}}.{{minor}}
             type=sha,prefix=,format=short
             type=raw,value=latest
+            # Versioned tag tracking the upstream Mattermost release this
+            # image is built from. Bump alongside UPSTREAM_IMAGE in the
+            # Dockerfile when moving to a new Mattermost release.
+            type=raw,value=11.7.0
+            type=raw,value=11.7
           labels: |
             org.opencontainers.image.title=BizerOS Chat
             org.opencontainers.image.source=https://github.com/${{ github.repository }}
