@@ -1,6 +1,28 @@
 version: "3.7"
 
 services:
+  # One-shot init: ensures the bind-mount data directories exist and are
+  # writable by the mattermost user (UID 2000) before the chat container
+  # starts. Required because Docker creates new bind-mount paths as root,
+  # and the upstream Mattermost image is distroless (no shell to chown
+  # at entrypoint).
+  bizeros-chat-init:
+    container_name: bizeros-chat-init
+    image: alpine:3.20
+    user: "0:0"
+    restart: "no"
+    command: >
+      sh -c "
+        set -e &&
+        mkdir -p /target/config /target/data /target/logs /target/plugins /target/client-plugins /target/bleve-indexes &&
+        chown -R 2000:2000 /target &&
+        echo 'permissions ready'
+      "
+    volumes:
+      - ${APP_DATA_DIR}/data/mattermost:/target
+    labels:
+      runtipi.managed: true
+
   bizeros-chat-db:
     container_name: bizeros-chat-db
     image: postgres:15-alpine
@@ -23,9 +45,11 @@ services:
 
   bizeros-chat:
     container_name: bizeros-chat
-    image: ghcr.io/kelsi-bizer/bizeros-chat:claude-rebrand-to-bizeros-chat-zTG6I
+    image: ghcr.io/kelsi-bizer/bizeros-chat:latest
     restart: unless-stopped
     depends_on:
+      bizeros-chat-init:
+        condition: service_completed_successfully
       bizeros-chat-db:
         condition: service_healthy
     environment:
